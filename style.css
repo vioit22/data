@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wdth,wght@0,87.5,100..900;1,87.5,100..900&display=swap');
+body{
+	background-image:url("https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	text-align: left;
+}
+
+button{
+	border: 1px solid black;
+	background: linear-gradient( rgb(13, 223, 238), rgb(2, 151, 250), rgb(3, 32, 197));
+	border-radius: 14%;
+	cursor: pointer;
+	text-align: center;
+	color: rgb(8, 0, 255);
+}
+b, h4{
+    font-family: 'Imbue', sans-serif;
+    font-size: 15px;
+}
