@@ -14,7 +14,40 @@ button{
 	text-align: center;
 	color: rgb(8, 0, 255);
 }
+
+
 b, h4{
     font-family: 'Imbue', sans-serif;
     font-size: 15px;
+}
+
+@keyframes animationVio{
+	10% {
+		color: red;
+		font-weight: bold;
+	}
+}
+
+h2{
+	animation: animationVio 1.75s infinite;
+}
+
+b:hover{
+	color:blue;
+}
+strong:hover{
+	color: black;
+	font-weight: bold;
+}
+@keyframes add-animation-title{
+	30%{
+		color: rgb(0, 68, 255);
+	}
+	50%{
+		color: turquoise;
+	}
+}
+
+h1{
+	animation: add-animation-title 2s infinite;
 }
